@@ -18,7 +18,9 @@ const items: Item[] = [
     new Item('Ugly Variable Names', 3, 6)
 ];
 
-const app: GildedTros = new GildedTros(items);
+const MAX_QUALITY = 50;
+
+const app: GildedTros = new GildedTros(items, MAX_QUALITY);
 
 let days = 4;
 const args = process.argv.slice(2);
