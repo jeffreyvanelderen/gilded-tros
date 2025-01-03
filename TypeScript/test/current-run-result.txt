@@ -1,0 +1,56 @@
+AXXES CODE KATA - GILDED TROS
+-------- day 0 --------
+name, sellIn, quality
+Ring of Cleansening Code, 10, 20
+Good Wine, 2, 0
+Elixir of the SOLID, 5, 7
+B-DAWG Keychain, 0, 80
+B-DAWG Keychain, -1, 80
+Backstage passes for Re:Factor, 15, 20
+Backstage passes for Re:Factor, 10, 49
+Backstage passes for HAXX, 5, 49
+Duplicate Code, 3, 6
+Long Methods, 3, 6
+Ugly Variable Names, 3, 6
+
+-------- day 1 --------
+name, sellIn, quality
+Ring of Cleansening Code, 9, 19
+Good Wine, 1, 1
+Elixir of the SOLID, 4, 6
+B-DAWG Keychain, 0, 80
+B-DAWG Keychain, -1, 80
+Backstage passes for Re:Factor, 14, 21
+Backstage passes for Re:Factor, 9, 50
+Backstage passes for HAXX, 4, 50
+Duplicate Code, 2, 4
+Long Methods, 2, 4
+Ugly Variable Names, 2, 4
+
+-------- day 2 --------
+name, sellIn, quality
+Ring of Cleansening Code, 8, 18
+Good Wine, 0, 2
+Elixir of the SOLID, 3, 5
+B-DAWG Keychain, 0, 80
+B-DAWG Keychain, -1, 80
+Backstage passes for Re:Factor, 13, 22
+Backstage passes for Re:Factor, 8, 50
+Backstage passes for HAXX, 3, 50
+Duplicate Code, 1, 2
+Long Methods, 1, 2
+Ugly Variable Names, 1, 2
+
+-------- day 3 --------
+name, sellIn, quality
+Ring of Cleansening Code, 7, 17
+Good Wine, -1, 3
+Elixir of the SOLID, 2, 4
+B-DAWG Keychain, 0, 80
+B-DAWG Keychain, -1, 80
+Backstage passes for Re:Factor, 12, 23
+Backstage passes for Re:Factor, 7, 50
+Backstage passes for HAXX, 2, 50
+Duplicate Code, 0, 0
+Long Methods, 0, 0
+Ugly Variable Names, 0, 0
