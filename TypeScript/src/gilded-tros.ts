@@ -128,11 +128,7 @@ export class GildedTros {
 
     private updateBackstagePassQuality(item: Item): void {
         this.decreaseSellIn(item);
-
-        const updatedBackstagePassQuality = calculateBackstagePassQuality(item);
-        if (updatedBackstagePassQuality <= this.maxGeneralQuality) {
-            item.quality = updatedBackstagePassQuality;
-        }
+        item.quality = calculateBackstagePassQuality(item, this.maxGeneralQuality);
     }
 
     private updateKeychainQuality(_item: Item): void {
