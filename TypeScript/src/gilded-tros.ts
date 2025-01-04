@@ -35,7 +35,7 @@ export class GildedTros {
         }
     }
 
-    private decreaseSellIn(item: Item, amount: number = 1): void  {
+    private decreaseSellIn(item: Item, amount: number = 1): void {
         item.sellIn -= amount;
     }
 
@@ -71,7 +71,10 @@ export class GildedTros {
 
     private updateGeneralItem(item: Item): void {
         this.decreaseSellIn(item);
-        this.decreaseQuality(item);
+
+        // Once the sell by date has passed, Quality degrades twice as fast
+        const hasPassedSellInDate = item.sellIn < 0;
+        this.decreaseQuality(item, hasPassedSellInDate ? 2 : 1);
     }
 
 }

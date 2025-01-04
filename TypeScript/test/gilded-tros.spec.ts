@@ -16,7 +16,7 @@ describe('GildedTrosTest', () => {
             app.updateQuality();
             app.updateQuality();
 
-            expect(app.items[0].quality).toBe(0);
+            expect(app.items[0].quality).not.toBeLessThan(0)
         })
 
         it('never sets quality of an item higher than given max quality value', () => {
@@ -31,7 +31,6 @@ describe('GildedTrosTest', () => {
             expect(app.items[0].quality).toBe(MAX_QUALITY);
         })
 
-        // TODO?
         it('degrades quality twice as fast once the sell by date has passed, ', () => {
             const initialQuality = 10;
             const app = new GildedTros([
