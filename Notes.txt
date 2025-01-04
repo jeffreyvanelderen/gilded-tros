@@ -1,0 +1,23 @@
+General:
+
+	- All items have a SellIn value which denotes the number of days we have to sell the item
+	- All items have a Quality value which denotes how valuable the item is
+	- At the end of each day our system lowers both values for every item
+
+Explicit business rules:
+
+		- Once the sell by date has passed, Quality degrades twice as fast
+    	- The Quality of an item is never negative
+    	- "Good Wine" actually increases in Quality the older it gets
+    	- The Quality of an item is never more than 50
+    	- "B-DAWG Keychain", being a legendary item, never has to be sold or decreases in Quality
+    	- "Backstage passes" for very interesting conferences increases in Quality as its SellIn value approaches;
+    			Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but
+    			Quality drops to 0 after the conference
+
+    	- Just for clarification, an item can never have its Quality increase above 50, however legendary items always have Quality 80.
+
+Update to system:
+
+	- Smelly items ("Duplicate Code", "Long Methods", "Ugly Variable Names") degrade in Quality twice as fast as normal items
+
