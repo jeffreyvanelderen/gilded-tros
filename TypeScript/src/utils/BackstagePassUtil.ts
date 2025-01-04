@@ -16,8 +16,7 @@ export const calculateBackstagePassQuality = (item: Item, maxQuality: number): n
 
     if (item.sellIn <= 5) {
         newQuality = item.quality + 3;
-    }
-    if (item.sellIn <= 10) {
+    } else if (item.sellIn <= 10) {
         newQuality = item.quality + 2;
     }
 
